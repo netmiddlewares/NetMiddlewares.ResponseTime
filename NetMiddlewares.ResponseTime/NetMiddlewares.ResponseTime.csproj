@@ -10,7 +10,7 @@
     <PackageProjectUrl>https://github.com/netmiddlewares/NetMiddlewares.ResponseTime</PackageProjectUrl>
     <RepositoryUrl>https://github.com/netmiddlewares/NetMiddlewares.ResponseTime</RepositoryUrl>
     <PackageTags>middleware;responsetime;profiling;debug</PackageTags>
-    <Version>0.0.2</Version>
+    <Version>0.0.1</Version>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>.NET Core middleware to get the response time and add it to a response header</Description>
