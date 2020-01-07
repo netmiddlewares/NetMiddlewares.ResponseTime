@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>NetMiddlewares.ResponseTime</AssemblyName>
+    <PackageId>NetMiddlewares.ResponseTime</PackageId>
+    <Authors>Renan Liberato</Authors>
+    <Product>NetMiddlewares.ResponseTime</Product>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/netmiddlewares/NetMiddlewares.ResponseTime</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/netmiddlewares/NetMiddlewares.ResponseTime</RepositoryUrl>
+    <PackageTags>middleware;responsetime;profiling;debug</PackageTags>
+    <Version>0.0.2</Version>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>.NET Core middleware to get the response time and add it to a response header</Description>
+    <PackageReleaseNotes>First middleware version.
+Adds the header under a fixed 'X-Response-Time' header name. Header name configuration will be added on a future release.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+</Project>
